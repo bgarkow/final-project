@@ -73,7 +73,7 @@ while True:
       print("Distance: %.2f" % distance)
       sleep(1)
       
-      if disance>=0 and distance <= 33:
+      if distance>=0 and distance <= 33:
         red.on()
         yellow.off()
         green.off()
