@@ -13,5 +13,6 @@ The needed materials will be:
 
 Here is a final look at the system when it is all connected:
 
-![](final.picture.jpeg)
+![](Final Picture.jpeg)
+
 
