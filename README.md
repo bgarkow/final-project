@@ -86,9 +86,9 @@ while True:
         green.on()
         red.off()
         yellow.off()
- 
- What this code is saying is it is importing all the necessary components in the code. It is then giving each light a variable. Then it is saying that if the button is pressed it will run the sensor and the lights. "distance = sensor.distance * 100" is giving a varianle to the distance sensor. The final part of the code is showing if the distances are a certain amount then it will turn on the corresponding light.
  ```
+ What this code is saying is it is importing all the necessary components in the code. It is then giving each light a variable. Then it is saying that if the button is pressed it will run the sensor and the lights. "distance = sensor.distance * 100" is giving a varianle to the distance sensor. The final part of the code is showing if the distances are a certain amount then it will turn on the corresponding light.
+
  
 To create this code start by opening a terminal on the Rasberry Pi or linux machine in general. Type in the terminal "vim" and whatever the filename is then ".py" to show that is it a python file. For this example the filename is called, "final_project.py". 
 <img width="528" alt="Screen Shot 2022-11-15 at 12 01 38 PM" src="https://user-images.githubusercontent.com/115035059/202003558-15ccb289-faa1-42c7-9634-60f0156b310a.png">
