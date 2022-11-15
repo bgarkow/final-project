@@ -16,3 +16,4 @@ Here is a final look at the system when it is all connected:
 ![](Final Picture.jpeg)
 
 
+![Final Picture](https://user-images.githubusercontent.com/115035059/201990778-a829a142-8247-4b92-91cd-689e2588886f.jpeg)
