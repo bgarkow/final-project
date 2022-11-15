@@ -103,3 +103,7 @@ Finally enter python3 and whatever the file is called. For this example what was
  
 The system should now be working after following these steps. Here is a video of what the system should look like if done correctly.
 
+
+
+https://user-images.githubusercontent.com/115035059/202005308-8b9a4dec-a5f4-478b-9372-9333ee142c8a.mov
+
