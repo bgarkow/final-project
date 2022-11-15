@@ -53,6 +53,7 @@ The ground wire is connected to pin 39. The other male-to-female wire is connect
 
 Now for the part that gets the system to work, the code. The code that can be used is shown below:
 
+```
 from gpiozero import LED
 from gpiozero import DistanceSensor
 from time import sleep
@@ -84,7 +85,7 @@ while True:
         green.on()
         red.off()
         yellow.off()
- 
+ ```
  
 To create this code start by opening a terminal on the Rasberry Pi or linux machine in general. Type in the terminal "vim" and whatever the filename is then ".py" to show that is it a python file. For this example the filename is called, "final_project.py". 
 <img width="528" alt="Screen Shot 2022-11-15 at 12 01 38 PM" src="https://user-images.githubusercontent.com/115035059/202003558-15ccb289-faa1-42c7-9634-60f0156b310a.png">
