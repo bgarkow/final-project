@@ -25,13 +25,17 @@ Here is a final look at the system when it is all connected:
 **Step 1**
 
 First I connected the three LED lights to the breadboard shown below:
+<img width="531" alt="LED ONLY SS" src="https://user-images.githubusercontent.com/115035059/202002556-24205f51-e6b0-4624-89e7-d4c08fb4b05b.png">
 
-
+<img width="532" alt="Screen Shot 2022-11-15 at 11 57 35 AM" src="https://user-images.githubusercontent.com/115035059/202002869-1cbc2911-b60e-471e-b5ac-240d86680cf0.png">
+L
 I hooked up the male-to-female wire to the cathode of each of the led. I then connected each of the resistors to each of the anodes of the LEDs. The red LED light is connected to GPIO 2. The yellow light is connected to GPIO 3. The green light is connected to GPIO 4. There is also a ground wire that is connected to pin 9. 
 
 **Step 2**
 
 The next step that I took is connecting the distance sensor to the Rasberry Pi. Here is a picture of what that looked like:
+<img width="523" alt="DISTANCE SENSOR 2 SS" src="https://user-images.githubusercontent.com/115035059/202003072-bc5c53bc-079e-482e-b73d-0ba5d7f92bc0.png">
+<img width="518" alt="Screen Shot 2022-11-15 at 11 59 02 AM" src="https://user-images.githubusercontent.com/115035059/202003095-6c50cc76-5de8-42ac-96ea-065601c5ae39.png">
 
 
 The ground wire is connected to pin 6 on the Rasberry pi. The echo wire is connected to GPIO 23. The trigger wire is connected to GPIO 24. Finally the VCC wire is connected to pin 2, which is giving out 5 volts. One of the resistors is connecting the ground wire and the VCC wire. The other resistor is connected from the echo to the VCC wire.
@@ -39,6 +43,8 @@ The ground wire is connected to pin 6 on the Rasberry pi. The echo wire is conne
 **Step 3**
 
 In this step, the button is going to be connected. To do this place the button and wires just like this:
+<img width="583" alt="BUTTON FINAL 2 SS" src="https://user-images.githubusercontent.com/115035059/202003416-5cf312dc-87d7-4235-8f61-5a2eec20fe96.png">
+<img width="522" alt="BUTTON FINAL SS" src="https://user-images.githubusercontent.com/115035059/202003427-af08701a-4af6-4bd5-85f0-08b4152b56a9.png">
 
 
 The ground wire is connected to pin 39. The other male-to-female wire is connected to GPIO 13.
@@ -81,6 +87,7 @@ while True:
  
  
 To create this code start by opening a terminal on the Rasberry Pi or linux machine in general. Type in the terminal "vim" and whatever the filename is then ".py" to show that is it a python file. For this example the filename is called, "final_project.py". 
+<img width="528" alt="Screen Shot 2022-11-15 at 12 01 38 PM" src="https://user-images.githubusercontent.com/115035059/202003558-15ccb289-faa1-42c7-9634-60f0156b310a.png">
 
 
 After that, vim will open and the script can now be typed. When finished, enter ":wq!" to save the script and exit out of vim. This will return you to the main terminal. 
@@ -88,6 +95,8 @@ After that, vim will open and the script can now be typed. When finished, enter 
 **Step 5**
 
 Finally enter python3 and whatever the file is called. For this example what was used is, "python3 final_project.py". **Note: If this does not work then python3 may not be downloaded. If not downloaded use, "sudo apt install python3".**
+<img width="531" alt="CODE SS" src="https://user-images.githubusercontent.com/115035059/202003677-a4296e52-def2-4abb-98c4-1b5f8e6b309f.png">
+
 
 **Conclusion** 
  
